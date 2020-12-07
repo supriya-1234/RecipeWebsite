@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to right, red, yellow);
+  background-color: wheat;
   font-family: sans-serif;
   text-align: center;
 }
@@ -14,6 +14,8 @@
   width: 50%;
   border: none;
   padding: 10px;
+  font-size: 15px;
+  box-shadow: 5px 10px 18px #888888;
 }
 .search-button {
   background: lightblue;
@@ -25,4 +27,19 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.recipy {
+  background-color: rgb(159, 218, 120);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 48%;
+  box-shadow: 5px 10px 18px #888888;
+}
+.images {
+  border-radius: 5px;
+  box-shadow: blue;
+}
+.title {
+  color: red;
 }
